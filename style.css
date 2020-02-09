@@ -1,0 +1,78 @@
+* {
+    padding: 0;
+    margin: 0;
+
+}
+
+body {
+    background: #373B44;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #4286f4, #373B44);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #4286f4, #373B44); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+
+#bar {
+     background-color:#eee;
+     border-radius: 10px;
+     border:solid 1px #ccc;
+     margin-right: -5px;
+     padding: 7px;
+     width: 50%;
+     min-width: 300px;
+     margin: 50px auto;
+    
+}
+
+#bar:hover {
+    background:white;
+}
+
+#bar .section {
+    display: inline-block;
+    vertical-align: middle;
+
+}
+#bar .section .photo  {
+    width: 35px;
+}
+
+#bar .section.text {
+    width: calc(100% - 35px - 114px - 15px);
+}
+
+#bar .section.button {
+    padding-left: 7px;
+    width: 114px;
+    text-align: center;
+    
+}
+
+#bar .section.photo img {
+    border-radius: 50%;
+    
+}
+
+#bar .section.text input[type="text"]{
+
+    border:0;
+    outline: none;
+    font-size: 18px;
+    background: transparent;
+    width:100%;
+    padding-left: 7px;
+}
+#bar .section button {
+    border:0;
+    background: transparent;
+    color:#aaa;
+    cursor:pointer;
+    font-size: 24px;
+    
+
+}
+
+#bar .section button:hover {
+    color: #000;
+    border:0;
+}
